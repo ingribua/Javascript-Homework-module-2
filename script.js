@@ -39,7 +39,3 @@
       for (let i = 0; i < moles.length; i++) 
         {moles[i].addEventListener("click", whackMole)};
       }
-
-      
-
-    
