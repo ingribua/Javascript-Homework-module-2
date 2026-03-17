@@ -1,0 +1,90 @@
+body{
+    font-family: system-ui, "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wrapper{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 48px;
+}
+#addbtn{
+    background-color: #864ed4; 
+    border: none;
+    color: white;
+    padding: 14px 30px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; 
+    transition-duration: 0.4s; 
+}
+#delete-btn{
+    background-color: white; 
+    border: none;
+    color: #a97de6;
+    padding: 8px 12px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 8px; 
+    transition-duration: 0.4s;
+}
+#delete-btn:hover{
+    color: #6f3db4;
+    background-color: rgb(239, 239, 239);
+    border-radius: 20px;
+}
+#addbtn:hover {
+    background-color: #9e6ce5; 
+}
+
+#addbtn:active {
+    background-color: #6f3db4;
+}
+input {
+    border: 1px solid #a0a0a0;
+    border-radius: 8px;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    margin-top:36px;
+    padding-left: 0;
+    list-style-position: inside;
+}
+.completed span {
+    text-decoration: line-through;
+    color:gray;}
+
+    input[type="checkbox"] {
+    accent-color: #6f3db4;
+    margin-right: 24px;}
+
+
+input[type="text"] {
+    width: 200px;
+}
+
+.tittel{
+    text-align: center;
+    padding:10px;
+}
+#date{
+    margin-left:20px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
